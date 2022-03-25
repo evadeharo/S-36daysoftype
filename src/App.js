@@ -18,7 +18,7 @@ function Letter() {
   return(
     <points position={[-2, -1.5, 0.5]} ref={mesh}>
       <textGeometry attach="geometry" args={['S', textOptions]} />
-      <pointsMaterial attach='material' size={0.001} color={"white"} transparent={true} />
+      <pointsMaterial attach='material' size={0.06} color={"white"} transparent={true} />
     </points>
   )
 }
@@ -36,7 +36,7 @@ function Letter2() {
   return (
     <points position={[-2, -1.5, 0.5]} ref={mesh}>
       <textGeometry attach="geometry" args={['S', textOptions]} />
-      <pointsMaterial attach='material' size={0.001} color={"white"} transparent={true} />
+      <pointsMaterial attach='material' size={0.06} color={"white"} transparent={true} />
     </points>
   )
 }
@@ -52,7 +52,7 @@ function Sphere() {
   return (
     <points position={[0, 0, 0]} ref={ball} >
       <sphereGeometry attach="geometry" args={[8, 60, 40]} />
-      <pointsMaterial attach='material' size={0.01} color={"white"} />
+      <pointsMaterial attach='material' size={0.06} color={"white"} />
     </points>
   )
 }
@@ -68,7 +68,7 @@ function Sphere2() {
   return (
     <points position={[0, 0, 0]} ref={ball} >
       <sphereGeometry attach="geometry" args={[7, 60, 40]} />
-      <pointsMaterial attach='material' size={0.01} color={"white"} />
+      <pointsMaterial attach='material' size={0.06} color={"white"} />
     </points>
   )
 }
@@ -84,7 +84,7 @@ function Sphere3() {
   return (
     <points position={[0, 0, 0]} ref={ball} >
       <sphereGeometry attach="geometry" args={[6, 60, 40]} />
-      <pointsMaterial attach='material' size={0.01} color={"white"} />
+      <pointsMaterial attach='material' size={0.06} color={"white"} />
     </points>
   )
 }
